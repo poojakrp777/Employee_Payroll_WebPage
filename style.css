@@ -1,0 +1,223 @@
+body{
+    margin: 0px;
+}
+header{
+    padding: 10px 0;
+    background-color: aliceblue;
+}
+.header-content
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:30%;
+}
+.emptext{
+    color: green;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid green;
+}
+.form-content
+{
+    align-items: center;
+}
+.form
+{
+    margin-left: 180px;
+    width: 65%;
+    padding: 44px 60px;
+    background: #ffffff;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 8px;
+    opacity: 1;
+}
+.form-head
+{
+    color: #43535f;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+    opacity: 1;
+}
+.row-content
+{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    align-items: center;
+    border: 0px solid green;
+}
+.label
+{
+    min-width: 140px;
+}
+label{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+.text
+{
+    font-size: 16px;
+    color: #42525f;
+    opacity: 1;
+    font-family: Roboto;
+}
+.input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+.profile_radio_content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.profile{
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 12px;
+}
+select{
+    width:16%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 0px 16px 0px 0px;
+}
+textarea{
+    width:100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.row-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.btn{
+    height: 178%;
+}
+.header{
+    padding: 15px 0;
+    background-color: #ffffff; 
+}
+.header-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 0px solid green;
+}
+.logo-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 0px solid green;
+    width: 90%;
+}
+.logo-content-img{ border: solid 0px #42515f}
+img{ height: 3em;}
+
+.emp-text{
+    text-align: left;
+    font: normal normal bold 20px/25px Montserrat;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0px;
+    color: #82A70C;
+    text-transform: uppercase;
+}
+.emp-text:hover{ text-shadow: 1px 1px 1px #42515f;}
+.emp-payroll:hover{ text-shadow: 1px 1px 1px #82A70C;}
+.emp-payroll{ color: #42515f;}
+
+/* Form Header */
+
+.main_Container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    min-height: calc(100vh - 80px);
+    background-color: #f7f7f7;
+    padding: 30px 0 10px;
+    margin: 50px;
+    margin-top: 0px;
+ } 
+
+.header_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+
+.header_text {
+    font: normal normal bold 20px/29px Roboto;
+    color: #42515F;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.add_button {
+    display: flex;
+    font: normal normal normal 20px/25px Roboto;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    background-color: #82A70C;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 18px;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+.header_container, .add_button, span{
+    align-items: center;
+}
+
+.add_button:hover {
+    color: black;
+    box-shadow: 0px 0px 10px black; 
+} 
+.icons {
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+} 
+
+/* for tables */
+
+td,th {
+    text-align: left;
+    padding: 5px 8px;
+} 
+
+th {
+    background: #42515f 0% 0% no-repeat padding-box;
+    border-radius: 5px 5px 0px 0px;
+    text-align: left;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: 0px solid #dddddd;
+}
